@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    width: 70%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: beige;
+}
+header h1{
+    background-color: #3B4D61;
+    width: 800px;
+    margin-bottom: 0;
+    color: white;
+}
+.main-screen{
+    background-color: #DCEDC8;
+    width: 800px;
+    padding: 20px;
+    height: 800px;
+    margin-top: 0;
+}
+.work-start p,.work-break P{
+    height: 35px;
+    margin-bottom: 0;
+   font-size: 20px;
+   padding: 2px;
+   
+}
+.timer{
+    font-size: 20px;
+}
+#timers-btns{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.input-screen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-screen button{
+    margin: 0 3px;
+    background-color: #3B4D61;
+    border: none;
+    color: white;
+}
+#stop ,#start {
+    margin: 10px 3px;
+    background-color: #3B4D61;
+    border: none;
+    height: 35px;
+    width: 80px;
+    color: white;
+}
+
+#reset{
+    background-color: #3B4D61;
+    color: white;
+    border: none;
+}
+.input-screen input{
+    width: 80px;
+    background-color: #e8e9e0;
+}
+
+.circle-clock{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    margin: 0 140px;
+}
+#cirlce-upper{
+height: 200px;
+width: 400px;
+border-radius: 50% 50% 0 0/100% 100% 0 0;
+margin: 40px 40px 0 40px;
+border: solid 3px #3B4D61;
+border-bottom: none;
+box-shadow: 0 2px 2px 2px rgb(159, 158, 158);
+color: white;
+}
+#cirlce-lower{
+height: 200px;
+width: 400px;
+background-color: #3B4D61;
+border-radius:0 0 50% 50%/0 0 100% 100%;
+margin: 0 40px 0 40px;
+border: solid 3px #3B4D61;
+border-top: none;
+font-size: 50px;
+color: white;
+box-shadow: 0 2px 2px 2px rgb(159, 158, 158);
+}
+.clock-name{
+    margin-top: 20px;
+}
+.clock-name p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.clock-name span{
+    color: #4087BB;
+    
+}
